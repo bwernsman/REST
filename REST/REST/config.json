@@ -3,7 +3,7 @@
     
     "local":{
         "restURL": "127.0.0.1:5000",
-        "socketURL": "127.0.0.1:5000",
+        "socketURL": "http://192.168.0.6:5000/chat",
         "debugMode": true
     },
     "test":{

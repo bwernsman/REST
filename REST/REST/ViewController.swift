@@ -12,10 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        print("App Loaded")
+        
+        //Config
         config.getConfig()
         print(info.restURL)
+        
+        //Start Socket IO
+        sockets.startSockets()
     }
     
 
